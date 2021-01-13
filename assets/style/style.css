@@ -110,10 +110,11 @@ nav{
     height: 450px; 
     padding: 45px;
     padding-top: 0;
-    background: url('/assets/image/right-hero-dots.svg');
-    background-position: left;
+    /* background: url('/assets/image/right-hero-dots.svg'); */
+    background: url('/assets/image/backshape.jpg');
+    background-position: bottom;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 .banner aside img{
     width: 100%;
