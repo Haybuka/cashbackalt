@@ -104,7 +104,7 @@ nav{
     .nav--item li:hover::after{
         width: 20%;
         height: 10%;
-        transform: translateY(2px);
+        transform: translateY(0);
     }
     nav{
         display: grid;
