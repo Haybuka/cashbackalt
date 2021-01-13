@@ -125,12 +125,13 @@ nav{
     }
     .nav--item.open{
         transform: translateX(0);
+        box-shadow:  5px 5px #00000048;
     }
     .nav--item{
         grid-column: 1/13;
         grid-row: 2/3;
         background: rgb(255, 255, 255);
-        width: 400px;
+        width: 300px;
         height: 100vh;
         transition: all 0.4s;
         transform: translateX(-500px);
