@@ -113,6 +113,7 @@ nav{
     /* background: url('/assets/image/right-hero-dots.svg'); */
     /* background: url('/assets/image/backshape.jpg'); */
     background-image:  url('/assets/image/right-hero-dots.svg');
+    background-attachment: fixed;
     background-position: left bottom, right bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -263,7 +264,7 @@ footer small{
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: 250vh;
         display: none;
         background: rgba(14, 13, 13, 0.582);
     }
