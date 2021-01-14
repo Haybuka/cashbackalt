@@ -9,12 +9,11 @@
     background-color: #02d95a;
     color: #fff;
 }
-/*
 html{
     scroll-behavior: smooth;
-    font-size: 62.4%;
+    /* font-size: 62.4%; */
 }
-
+/*
 :root{
     --btn-bkg:#02d95a;
     --white-color:#fff;
