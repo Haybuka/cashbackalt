@@ -4,12 +4,15 @@ let overlay = document.querySelector('.overlay')
 let hour = document.querySelector('.time--hour')
 let minute = document.querySelector('.time--minute')
 let seconds = document.querySelector('.time--seconds')
+let percentage = document.querySelector('.percentages')
 
 harmburger.addEventListener('click',()=>{
  navItem.classList.toggle('open')
  overlay.classList.toggle('over')
 })
 setInterval(() => {
+    let rndx = Math.floor(Math.random()*500) + 1;
+    percentage.innerHTML = `${rndx}%`
     let date = new Date();
     let h = date.getHours();
     let m = date.getMinutes();
@@ -26,7 +29,6 @@ if(m <10){
 if(s <10){
     seconds.innerHTML = `0${s}`;
 }
-console.log(`${h}:${m}:${s}`)
 }, 1000);
 // function showTime(){
 //     let date = new Date();
