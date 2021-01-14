@@ -109,12 +109,13 @@ nav{
     width: 700px;
     height: 450px; 
     padding: 45px;
-    padding-top: 0;
+    padding-top: 5px;
     /* background: url('/assets/image/right-hero-dots.svg'); */
-    background: url('/assets/image/backshape.jpg');
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: repeat-x;
+    /* background: url('/assets/image/backshape.jpg'); */
+    background-image:  url('/assets/image/right-hero-dots.svg');
+    background-position: left bottom, right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner aside img{
     width: 100%;
@@ -219,6 +220,8 @@ footer small{
     .banner aside{
         grid-column: 1/13;
         grid-row: 1/2;
+        padding: 0;
+        padding-top: 10px;
         width: auto;
         height: auto;
     }
