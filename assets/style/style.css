@@ -110,8 +110,6 @@ nav{
     height: 450px; 
     padding: 45px;
     padding-top: 5px;
-    /* background: url('/assets/image/right-hero-dots.svg'); */
-    /* background: url('/assets/image/backshape.jpg'); */
     background-image:  url('/assets/image/right-hero-dots.svg');
     background-attachment: fixed;
     background-position: left bottom, right bottom;
@@ -124,14 +122,16 @@ nav{
 .banner p{
     line-height: 30px;
 }
+.lead--text{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 20px;
+}
 h2{
     font-size: 35px;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    /* font-family: 'Bangers', cursive; */
-    /* transform: translateX(-2rem) rotate(-10deg); */
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 h2 span{
     line-height: 20px;
@@ -177,14 +177,14 @@ background-attachment: fixed;
     padding: 20px;
 }
 .promo--section p{
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
 }
 .promo--section h3{
     text-align: center;
     margin: 10px 0;
-    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 24px;
+    line-height: 25px;
     color: rgb(5, 26, 25);
 }
 footer{
