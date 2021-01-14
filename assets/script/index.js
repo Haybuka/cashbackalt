@@ -23,6 +23,9 @@ if(h <10){
 if(m <10){
     minute.innerHTML = `0${m}`;
 }
+if(s <10){
+    seconds.innerHTML = `0${s}`;
+}
 console.log(`${h}:${m}:${s}`)
 }, 1000);
 // function showTime(){
