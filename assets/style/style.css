@@ -124,7 +124,7 @@ nav{
     line-height: 30px;
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
@@ -137,6 +137,7 @@ h2 span{
     display: block;
     margin-bottom: 10px;
     font-family: inherit;
+color: rgb(5, 26, 25);
 }
 .center--span{
     z-index:5;
@@ -182,6 +183,8 @@ background-attachment: fixed;
     text-align: center;
     margin: 10px 0;
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 24px;
+    color: rgb(5, 26, 25);
 }
 footer{
     background-color: #02d95a;
