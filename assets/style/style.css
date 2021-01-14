@@ -414,6 +414,7 @@ footer small{
         margin:20px auto;
         text-align: center;
         overflow: hidden;
+        padding: 10px;
     }
     .promo--div:nth-of-type(2),.promo--div:nth-of-type(4){
         
