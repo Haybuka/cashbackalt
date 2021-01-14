@@ -159,9 +159,13 @@ color: rgb(5, 26, 25);
 
 .icon--div{
     text-align: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
 }
-.icon--div i{
-    font-size: 50px;
+.icon--div img{
+    width: 100%;
+    height: 100%;
 }
 .promo--section{
     display: flex;
