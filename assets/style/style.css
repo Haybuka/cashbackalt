@@ -413,6 +413,7 @@ footer small{
         flex-direction: column;
         margin:20px auto;
         text-align: center;
+        overflow: hidden;
     }
     .promo--div:nth-of-type(2),.promo--div:nth-of-type(4){
         
