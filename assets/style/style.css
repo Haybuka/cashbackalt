@@ -99,6 +99,8 @@ nav{
     display: grid;
    grid-template-columns: repeat(12,1fr);
    overflow: hidden;
+   position: relative;
+   z-index: -1;
 }
 .banner article{
     grid-column: 1/6;
@@ -321,7 +323,7 @@ footer small{
         top: 0;
         left: 0;
         width: 100vw;
-        height: 200vh;
+        height: 365vh;
         display: none;
         background: rgba(14, 13, 13, 0.582);
         z-index: -1;
@@ -338,7 +340,7 @@ footer small{
         grid-row: 2/3;
         background: rgb(255, 255, 255);
         width: 300px;
-        height: 100vh;
+        height: 300vh;
         transition: all 0.4s;
         transform: translateX(-500px);
         animation: movement 2s ease-in;
