@@ -215,7 +215,7 @@ footer small{
     .banner article{
         grid-column: 1/13;
         grid-row:2/3;
-        padding: 30px;
+        padding: 30px 15px;
     }
     .banner aside{
         grid-column: 1/13;
