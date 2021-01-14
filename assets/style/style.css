@@ -105,16 +105,26 @@ nav{
     padding: 30px;
 }
 .banner aside{
+    position: relative;
     grid-column: 7/13;
     width: 700px;
     height: 450px; 
     padding: 45px;
     padding-top: 5px;
-    background-image:  url('/assets/image/right-hero-dots.svg');
-    background-attachment: fixed;
-    background-position: left bottom, right bottom;
-    background-size: cover;
+    /* background-image:  url('/assets/image/right-footer-dots.svg'); */
+    /* background-attachment: fixed; */
+    background-position: left top;
+    object-fit: contain;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+.banner aside img:nth-of-type(1){
+    position: absolute;
+    transform:translate(-130px,-60px);
+    height: 50px;
+    z-index: -10;
+    bottom: 0;
+    left: 0;
 }
 .banner aside img{
     width: 100%;
@@ -236,6 +246,9 @@ footer small{
     color: #fff;
 }
 @media screen and (max-width:950px){
+    .banner aside img:nth-of-type(1){
+        transform:translate(-130px,-30px);
+    }
     .btn--activate a{
         background: #02d95a;
         color: #fff !important;

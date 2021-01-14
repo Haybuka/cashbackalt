@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289" height="42" viewBox="0 0 289 42">
+    <defs>
+        <path id="a" d="M0 0h314v59H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-11 -4)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <circle cx="13" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="13" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="13" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="32" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="32" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="32" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="51" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="51" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="51" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="70" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="70" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="70" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="89" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="89" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="89" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="108" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="108" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="108" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="127" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="127" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="127" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="146" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="146" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="146" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="165" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="165" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="165" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="184" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="184" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="184" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="203" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="203" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="203" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="222" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="222" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="222" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="241" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="241" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="241" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="260" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="260" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="260" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="279" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="279" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="279" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="298" cy="6" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="298" cy="25" r="2" fill="#376563" mask="url(#b)"/>
+        <circle cx="298" cy="44" r="2" fill="#376563" mask="url(#b)"/>
+    </g>
+</svg>
