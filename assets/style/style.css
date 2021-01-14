@@ -287,7 +287,15 @@ footer small{
     display: block;
     color: #fff;
 }
-@media screen and (max-width:950px){
+.banner aside img:nth-of-type(2){
+    transform: translateX(-70px);
+}
+@media screen and (max-width:1100px){
+    .banner{
+        padding: 0;
+    }
+}
+@media screen and (max-width:1050px){
     .banner aside img:nth-of-type(1){
         transform:translate(-130px,-30px);
     }
@@ -390,6 +398,22 @@ footer small{
     }
     100%{
         display: none;
+    }
+}
+@media screen and (max-width:930px){
+    .promo--div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin:20px auto;
+        text-align: center;
+    }
+    .promo--div:nth-of-type(2),.promo--div:nth-of-type(4){
+        
+        flex-direction: column-reverse;
     }
 }
 @media screen and (max-width:750px){
