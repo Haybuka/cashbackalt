@@ -190,20 +190,45 @@ background-attachment: fixed;
 footer{
     background-color: #02d95a;
     padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #02d95a;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2302b84d' fill-opacity='0.42'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.42'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+footer .logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .footer--item{
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 4/11;
+    grid-row: 1/2;
 }
 .footer--item li{
   list-style-type: none;
   font-weight: bold;
   margin-top: 10px;
+
+}
+.period{
+ width: 5px;
+ background-color: #fff;
+ border-radius: 50px;
+ height: 5px;
 }
 .footer--item li a{
     color: rgba(255, 255, 255, 0.849);
+    text-decoration: none;
 }
 footer small{
+    grid-row: 2/3;
+    grid-column: 1/13;
     text-align: center;
     display: block;
     color: #fff;
@@ -304,6 +329,32 @@ footer small{
         display: block;
     }
     100%{
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    footer .logo{
+        grid-column: 1/13;
+        text-align: center;
+        grid-row: 1/2;
+        margin: 0 auto;
+    }
+    .footer--item{
+       margin-bottom: 10px;
+        align-items: center;
+        grid-column: 1/13;
+        display: block;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .footer--item li{
+        margin: 10px 0;
+    }
+    footer small{
+        grid-row: 3/4;
+        grid-column: 1/13;
+    }
+    .period{
         display: none;
     }
 }
