@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
+    <nav data-aos="fade-down">
        <div class="logo">
          <a href="#"><img src='assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
        </div>
@@ -32,13 +33,8 @@
             
         </div>
         <section class="banner">
-           <article>
+           <article data-aos="fade-down"  data-aos-duration="1200">
                 <div>
-                    <!-- <h2 >
-                        <span data-aos="zoom-in">500% CashBack On</span>
-                       <span class="center--span">on </span>
-                        <span data-aos="zoom-in">ATM withdrawals</span>
-                     </h2> -->
                     <h1 class="lead--text">Explicabo dolorem soluta magni error mollitia nesciunt eaque repellendus exercitationem, autem blanditiis, 
                         necessitatibus perspiciatis suscipit. Optio doloribus beatae est quibusdam culpa assumenda.
                     </h1>
@@ -49,14 +45,14 @@
                     <a href="#" class="get--started">Get Started</a>
                 </div> 
            </article>
-           <aside>
+           <aside data-aos="fade-left" data-aos-duration="1200">
                 <!-- <img src="assets/image/new.png" alt="image"> -->
                 <img src="/assets/image/right-footer-dots.svg" alt="">
                 <img src="assets/image/19197145.png" alt="image">
            </aside>
         </section>
         <section class="promo--section">
-            <article>
+            <article data-aos="zoom-out">
                 <div class="icon--div">
                     <img src="assets/image/atm-machine.svg" alt=" ">        
                 </div>
@@ -66,7 +62,8 @@
                         Quas aut voluptatum praesentium, commodi reiciendis.</p>
                 </div>
             </article>
-            <article>
+            <article data-aos="fade-up"
+            data-aos-duration="1000">
                 <div class="icon--div">
                     <img src="assets/image/pos.svg" alt=" ">
                 </div>
@@ -76,7 +73,8 @@
                         Quas aut voluptatum praesentium, commodi reiciendis .</p>
                 </div>
             </article>
-            <article>
+            <article data-aos="fade-up"
+            data-aos-duration="1000">
                 <div class="icon--div">
                     <img src="assets/image/cash.svg" alt=" ">
                 </div>
@@ -86,7 +84,8 @@
                         Quas aut voluptatum praesentium, commodi reiciendis.</p>
                 </div>
             </article>
-            <article>
+            <article data-aos="fade-up"
+            data-aos-duration="1000">
                 <div class="icon--div">
                     <img src="assets/image/money-bag.svg" alt=" ">
                 </div>
@@ -99,14 +98,14 @@
         </section>
         <section class="time"> 
             <p> 
-                <span class="time--hour"></span> <span class="time--minute"></span> <span class="time--seconds"></span>
-               <span class="percentages"></span>
+                <span class="time--hour" data-aos="fade-up"></span> <span class="time--minute" data-aos="fade-down"></span> <span class="time--seconds" data-aos="fade-up"></span>
+               <span class="percentages" data-aos="zoom-out"></span>
             </p>
-                <a href="#" class="get--started">See Daily Winner</a>
+                <a href="#" class="get--started" data-aos="fade-up">See Daily Winner</a>
             
        </section>
     </main>
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="logo">
             <a href="#"><img src='assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
         </div>
@@ -119,6 +118,7 @@
        </ul>
        <small>&copy; 2020 9ja CashBack. All Right Reserved</small>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/script/index.js"></script>
 </body>
 </html>
