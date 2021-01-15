@@ -85,13 +85,13 @@ nav{
 }
 .btn--activate{
     border: none !important;
-    
 }
 .btn--activate a{
     background: #02d95a;
     color: #fff !important;
     padding: 10px 15px;
     
+    border-radius: 10px;
 }
 .banner{
     display: grid;
@@ -166,6 +166,8 @@ color: rgb(5, 26, 25);
     margin-top: 15px;
     display: inline-block;
     text-decoration: none;
+    border-radius: 10px;
+
 }
 
 .icon--div{
@@ -188,6 +190,8 @@ background-color:#02d95a;
 color:#fff;
 font-size: 25px;
 margin: 0 5px;
+border-radius: 10px;
+
 }
 .time a{
     margin-bottom: 10px;
