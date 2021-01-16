@@ -66,6 +66,7 @@ ul li{
 }
 p{
     padding-top: 15px;
+    color: #000000a8;
 }
 
 @media screen and (max-width:720px){
@@ -74,7 +75,10 @@ p{
         padding: 0;box-shadow: none;
     }
     main{
-        padding: 5px;
+        padding: 5px 0;
     }
-   
+    h1{
+        padding-left: 0;
+        padding-top: 15px;
+    }
 }
