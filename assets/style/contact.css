@@ -206,11 +206,13 @@ main #left {
 }
 main #right {
     grid-column: 1/13;
-    /* padding: 30px; */
-    /* border-radius: 3px; */
     grid-row:2/3 ;
 }
 #message{
     width: 100%;
+}
+main {
+    
+    padding: 30px 10px;
 }
 }
