@@ -1,6 +1,5 @@
 let harmburger = document.querySelector('.harmburger')
 let navItem = document.querySelector('.nav--item')
-let overlay = document.querySelector('.overlay')
 let hour = document.querySelector('.time--hour')
 let minute = document.querySelector('.time--minute')
 let seconds = document.querySelector('.time--seconds')
@@ -8,7 +7,6 @@ let percentage = document.querySelector('.percentages')
 
 harmburger.addEventListener('click',()=>{
  navItem.classList.toggle('open')
- overlay.classList.toggle('over')
 })
 setInterval(() => {
     let rndx = Math.floor(Math.random()*500) + 1;
