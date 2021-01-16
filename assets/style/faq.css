@@ -34,7 +34,7 @@ h2{
 }
 .nav--item{
     z-index: 100;
-    height: 80vh;
+   
 }
 .detail{
     display: flex;
@@ -80,5 +80,8 @@ p{
     h1{
         padding-left: 0;
         padding-top: 15px;
+    }
+    .nav--item{
+        height: 80vh;
     }
 }
