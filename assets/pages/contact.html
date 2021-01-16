@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link rel="stylesheet" href="/assets/style/style.css">
+        <link rel="stylesheet" href="/assets/style/contact.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav data-aos="fade-down">
+            <div class="logo">
+              <a href="/index.html"><img src='/assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
+            </div>
+            <div class="harmburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <ul class="nav--item">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/assets/pages/about.html">About Us</a></li>
+                    <li><a href="#">Daily board</a></li>
+                    <li><a href="#">Monthly board</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="btn--activate"><a href="#" >Activate 9ja cashback</a></li>
+           </ul>
+         </nav>
+        <header>
+            <h1> contact us</h1>
+        </header>
+        <main>
+            <div id="left">
+                <h3>Contact Our Team</h3>
+                <p>Need help?.Reach out to us,<br />we got answers to your question</p>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 285A Corporation Drive,Dolphin Estate,Ikoyi,Lagos</li>
+                    <li><i class="fas fa-phone-alt"></i> 080-3473-9837</li>
+                    <li><i class="fas fa-envelope"></i> mail@9jaCashBack.com</li>
+                    <li><i class="fas fa-envelope"></i> enquiries@9jacashback.com</li>
+                </ul>
+            </div>
+            <div id="right">
+                <div>
+                    <p>send a message <i class="fas fa-hand-peace"></i></p>
+                <form action="">
+                    <label for="">
+
+                        <input type="text" id="Fname" placeholder="First name">
+                    </label>
+                    <label for="">
+
+                        <input type="text" id="Lname" placeholder="Last name">
+                    </label>
+                    <label for="">
+
+                        <input type="email" id="mail" placeholder="Enter your Mail">
+                    </label>
+                    <label for="">
+
+                        <textarea name="text" id="message" cols="40" rows="10" placeholder="Enter message"></textarea>
+                    </label>
+                </form>
+                <button>Send Message</button>
+                </div>
+            </div>
+        </main>
+        <footer data-aos="flip-left">
+            <div class="logo">
+                <a href="#"><img src='/assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
+            </div>
+            <ul class="footer--item-one">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/assets/pages/about.html">About Us</a></li>
+                <li><a href="#">Daily Board</a></li>
+                <li><a href="#" class="btn--activate">Activate 9ja Cashback</a></li>
+           </ul>
+           <ul class="footer--item-two">
+            <li><a href="#">Resources</a></li>
+            <li><a href="/assets/pages/terms.html">Terms and Conditions</a></li>
+            <li><a href="/assets/pages/privacy.html">Privacy Policy</a></li>
+            <li><a href="/assets/pages/faq.html" target="_blank">FAQ</a></li>
+       </ul>
+           <small>&copy; 2020 9ja CashBack. All Right Reserved</small>
+        </footer>
+    </div>
+    <script>
+        let harmburger = document.querySelector('.harmburger')
+    let navItem = document.querySelector('.nav--item')
+    let main = document.querySelector('main')
+    harmburger.addEventListener('click',()=>{
+     navItem.classList.toggle('open')
+     main.classList.toggle('index')
+    })
+    </script>
+</body>
+
+</html>
