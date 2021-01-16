@@ -5,7 +5,6 @@ let hour = document.querySelector('.time--hour')
 let minute = document.querySelector('.time--minute')
 let seconds = document.querySelector('.time--seconds')
 let percentage = document.querySelector('.percentages')
-
 harmburger.addEventListener('click',()=>{
  navItem.classList.toggle('open')
  main.classList.toggle('index')
@@ -30,4 +29,6 @@ if(s <10){
     seconds.innerHTML = `0${s}`;
 }
 }, 1000);
+
+
 AOS.init();

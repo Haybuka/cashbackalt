@@ -3,10 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/faq.css">
     <title>Document</title>
+  
 </head>
 <body>
-    <h1>FAQ PAGE</h1>
-    <a href="/index.html"> go back</a>
+    <nav >
+        <div class="logo">
+          <a href="#"><img src='/assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
+        </div>
+        <div class="harmburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+       <ul class="nav--item">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Daily board</a></li>
+                <li><a href="#">Monthly board</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="btn--activate"><a href="#" >Activate 9ja cashback</a></li>
+       </ul>
+     </nav>
+    <h1>FAQ Page</h1>
+     <main>
+         <section>
+            
+            <ul>
+                <li>
+                    <div class="detail">
+                        <h2>Q: What is 9Ja CashBack? </h2>
+                         <div class="icon">
+                             <img src="/assets/image/chevron.png" alt="">
+                         </div>
+                    </div>
+                    <div class="summary show">
+                    <p>
+                        9ja CashBack,
+                         is an Electronic Transaction Reward Service (ETRS) that scores and rewards users with refunds for electronic financial  transactions they register with the service. 
+                        Basically after making a successful financial transaction 
+                    </p>
+                     
+                    </div>
+                </li>
+                <li>
+                    <div class="detail">
+                        <h2>What type of transactions are eligible for 9jaCashBack?
+                        </h2>
+                         <div class="icon">
+                             <img src="/assets/image/chevron.png" alt="">
+
+                         </div>
+                    </div>
+                    <div class="summary show">
+                       <p>
+                        ATM Withdrawals and POS Payments 
+                       </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail">
+                        <h2>Can I Activate 9ja CashBack on all my ATM Cards?
+                        </h2>
+                         <div class="icon">
+                             <img src="/assets/image/chevron.png" alt="">
+
+                         </div>
+                    </div>
+                    <div class="summary">
+                       <p> Yes you can.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail">
+                        <h2>Is my data secure with 9ja CashBack?
+                        </h2>
+                         <div class="icon">
+                             <img src="/assets/image/chevron.png" alt="">
+
+                         </div>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            All 9ja CashBack  transactions are secured by Interswitch so all your data is a 110% secure .
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail">
+                        <h2>What is a giveaway wallet? </h2>
+                         <div class="icon">
+                             <img src="/assets/image/chevron.png" alt="">
+
+                         </div>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            9ja CashBack is a transit wallet for receiving every cashback or  ATM giveaway you earn  before its moved to your bank account.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+         </section>
+     </main>
+     <footer >
+        <div class="logo">
+            <a href="#"><img src='/assets/image/9ja Cash Back Logo Project.svg' alt="logo"></a>
+        </div>
+        <ul class="footer--item-one">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Daily Board</a></li>
+            <li><a href="#" class="btn--activate">Activate 9ja Cashback</a></li>
+       </ul>
+       <ul class="footer--item-two">
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="assets/pages/faq.html" target="_blank">FAQ</a></li>
+   </ul>
+       <small>&copy; 2020 9ja CashBack. All Right Reserved</small>
+    </footer>
+     <!-- <script src="/assets/script/index.js"></script> -->
+     <script>
+         let harmburger = document.querySelector('.harmburger')
+let navItem = document.querySelector('.nav--item')
+let icons = [...document.querySelectorAll('.icon')]
+harmburger.addEventListener('click',()=>{
+ navItem.classList.toggle('open')
+})
+icons.forEach(icon => {
+    icon.addEventListener('click',function (e) {
+        let parent = this.parentElement;
+        parent.nextElementSibling.classList.toggle('show');
+    })
+})
+     </script>
 </body>
 </html>
