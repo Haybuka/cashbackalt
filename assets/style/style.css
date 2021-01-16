@@ -140,19 +140,7 @@ nav{
     line-height: 1.5;
     font-size: 20px;
 }
-h2{
-    font-size: 35px;
-    text-transform: uppercase;
-    font-weight: bold;
-    position: relative;
-}
-h2 span{
-    line-height: 20px;
-    display: block;
-    margin-bottom: 10px;
-    font-family: inherit;
-color: rgb(5, 26, 25);
-}
+
 .center--span{
     z-index:5;
     font-weight: bold;
@@ -336,7 +324,11 @@ footer small{
     }
     main{
         position: relative;
-       z-index: -1;
+        z-index: 15;
+    }
+    main.index{
+        
+       z-index: -5;
     }
     .banner article{
         grid-column: 1/13;
