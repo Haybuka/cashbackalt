@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 h1{
-    font-size: 23px;
+    font-size: 20px;
     padding-left: 10px;
 }
 h2{
@@ -21,8 +21,12 @@ h2{
 .icon{
     width: 30px;
     height: 30px;
-    /* transform: translateX(-10px); */
+    transition: all 0.3s ease-in;
     cursor: pointer;
+    /* transform: rotate(0); */
+}
+.icon.clicked{
+    transform: rotate(180deg);
 }
 .icon img{
     width: 100%;
@@ -35,14 +39,14 @@ h2{
 .detail{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: safe;
 }
 section{
     width: 700px;
     padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.336);
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .summary{
     display: none;
@@ -67,8 +71,10 @@ p{
 @media screen and (max-width:720px){
     section{
         width: auto;
+        padding: 0;box-shadow: none;
     }
     main{
         padding: 5px;
     }
+   
 }

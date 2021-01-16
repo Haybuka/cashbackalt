@@ -136,6 +136,7 @@ harmburger.addEventListener('click',()=>{
 })
 icons.forEach(icon => {
     icon.addEventListener('click',function (e) {
+        this.classList.toggle('clicked')
         let parent = this.parentElement;
         parent.nextElementSibling.classList.toggle('show');
     })
