@@ -21,7 +21,7 @@ h2{
 .icon{
     width: 30px;
     height: 30px;
-    transform: translateX(-10px);
+    /* transform: translateX(-10px); */
     cursor: pointer;
 }
 .icon img{
@@ -69,6 +69,6 @@ p{
         width: auto;
     }
     main{
-        padding: 10px 15px
+        padding: 5px;
     }
 }
